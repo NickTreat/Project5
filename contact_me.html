@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="moose2.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><strong>Home</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.linkedin.com/in/nicktreat/" target="_blank"><strong>LinkedIn</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="codepen_gallery.html"><strong>CodePen Gallery</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_me.html"><strong>About Me</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact_me.html"><strong>Contact Me</strong></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="overlay">
+    <header class="page-header header container-fluid">
+      <div class="description contact">
+        <h1>Contact Me</h1>
+        <a href="https://www.instagram.com/nicholas.treat/?hl=en" target="_blank" class="btn btn-outline-secondary btn-lg">Check out my Instagram!!</a>
+        <form action="example-server.com" method="post">
+          <div class="form-group">
+            <label for="mail_submit">Email address</label>
+            <input type="email" class="form-control" id="mail_submit" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone_submit">Phone Number</label>
+            <input type="tel" class="form-control" id="phone_submit" placeholder="123-456-7890">
+          </div>
+          <div class="form-group">
+            <label for="message_submit">Leave me a message!</label>
+            <textarea class="form-control" id="message_submit" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </header>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="java/main.js"></script>
+</body>
+
+</html>

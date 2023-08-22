@@ -1,0 +1,128 @@
+/* .header and .overlay deal with background image */
+
+.header {
+  background-image: url("../media/bg_image.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: auto;
+  left: 0;
+  top: 0;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 42%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #b7abfa;
+  background: rgba(16, 8, 32, 0.795);
+}
+
+.description p {
+  color: rgb(255, 247, 247);
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description a {
+  border: 1px solid #6f50a1;
+  background: hsla(263, 34%, 47%, 0.745);
+  border-radius: 0;
+  color: rgb(252, 241, 241);
+}
+
+.description a:hover {
+  border: 1px solid #fff;
+  background: rgb(61, 20, 158);
+  color: rgb(65, 240, 59);
+}
+
+.pengallery {
+  text-align: left;
+  position: relative;
+  top: 20%;
+}
+
+.contact {
+  background: hsla(263, 34%, 47%, 0.645);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.img-responsive {
+  height: 45%vh;
+  width: auto;
+  padding-top: 5rem;
+}
+
+.about_words {
+  background-color: rgba(16, 8, 32, 0.845);
+  padding: 2rem 2rem;
+  justify-content: left;
+  max-width: 75%;
+  margin-left: 10%;
+  align-content: flex-start;
+  color: whitesmoke;
+}
+
+.fixed-top {
+  background: rgba(16, 8, 32, 0.795);
+}
+
+.navbar-nav a:visited {
+  color: #cddf67;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgb(156, 25, 25);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #6f50a1be;
+  color: aqua;
+}
+
+.nav-link {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.form-group label {
+  color: ivory;
+}
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 25%;
+    transform: none;
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 2em;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .pengallery {
+    text-align: left;
+    word-wrap: normal;
+  }
+}
