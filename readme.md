@@ -1,5 +1,14 @@
 # Project Five Collaboration
 
+## Hosting Your Site Using Github Pages
+1. Open your Github Repository
+2. Go into Settings
+3. Left column Pages
+4. Choose your branch to deploy
+5. Save and Wait
+6. Refresh and Use Link
+<kbd><img src="https://github.com/daryldelrosario/simple-thankyou/blob/main/media/host-w-github.gif?raw=true" alt="github pages tutorial demo gif"></kbd>
+
 <details>
   <summary>Collaborated With:</summary>
 
