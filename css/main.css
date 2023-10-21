@@ -1,11 +1,7 @@
 /* .header and .overlay deal with background image */
 
-.header {
-  background-image: url("../media/bg_image.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
+
+
 
 .overlay {
   position: absolute;
